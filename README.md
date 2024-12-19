@@ -3,7 +3,7 @@
 
 ## The Task
 For my final project in the math class Machine Learning this semester I studied the famous result known as the Kolmogorov Arnold Representation Theorem. This theorem shows that all continuous multi-variable functions can be represented as a sum and composition of single variable function, specifically,
-\[f(x_1,\dots,x_n) = \sum_{q=1}^{2n+1}\chi^q \left( \sum_{p=1}^n \phi^q(x_p) \right) \]
+$$f(x_1,\dots,x_n) = \sum_{q=1}^{2n+1}\chi^q \left( \sum_{p=1}^n \phi^q(x_p) \right) $$
 The proof of this result is very interesting and non-trivial. It happens to be a constructive proof, and the machinery that it uses is only dependent on some basic analysis knowledge. That being said, understanding the proof requires critical thinking about the underlying geometry and methods being used. Finally, literature on this proof is dense, and often not only analytical but highly abbreviated to the point that re-constructing the steps made by the authors of the proofs requires some real intelligence. For these reasons, I think that Chat-GPT is amply suited for helping aid someone in understanding of the proof, but also could struggle with understanding key steps. Bellow is my conversation with Chat-GPT4o, along with comments from me about the accuracy and value provided by Chat-GPT's responses. As a starting point, I first ask the model to try and summarize the paper at a high level. 
 
 ---
