@@ -31,7 +31,9 @@ On page 7 of the pdf in Lemma 3 the author states that for each fixed value $k$,
 **ChatGPT:** (Some response omitted)
 1.	**Divide the interval**  $[0, 1]$  into  $5k$  subintervals of equal length  $\frac{1}{5k}$:
 
-\[I_{i} = \left[\frac{i-1}{5k}, \frac{i}{5k}\right), \quad i = 1, 2, \dots, 5k-1, \quad \text{and } I_{5k} = \left[\frac{5k-1}{5k}, 1\right]\].
+\[
+I_{i} = \left[\frac{i-1}{5k}, \frac{i}{5k}\right), \quad i = 1, 2, \dots, 5k-1, \quad \text{and } I_{5k} = \left[\frac{5k-1}{5k}, 1\right]
+\]
 
 2.	**Group the intervals cyclically** into five families  $A_{k,1}^q$ :
 Assign each subinterval $ I_{i}$  to the family $ q = ((i-1) \mod 5) + 1 $.
